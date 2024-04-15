@@ -17,20 +17,20 @@ var Roman = map[string]int{
 	"C":    100,
 }
 var ConvIntToRoman = [14]int{
-	1,
-	2,
-	3,
-	4,
-	5,
-	6,
-	7,
-	8,
-	9,
-	10,
-	40,
-	50,
-	90,
 	100,
+	90,
+	50,
+	40,
+	10,
+	9,
+	8,
+	7,
+	6,
+	5,
+	4,
+	3,
+	2,
+	1,
 }
 var AIn, BIn *int
 var Operators = map[string]func() int{
